@@ -78,6 +78,7 @@ span {
     display: flex;
 
     .img {
+        width: 50%;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
         h6 {
@@ -87,9 +88,8 @@ span {
               text-align: center;
         }
        img {
-        width: 80%;
-        height: 45vh;
-        object-fit: contain;
+        width: 200px;
+    height: 200px;
 
     @media (max-width: 700px) {
          object-fit: contain;
@@ -108,6 +108,9 @@ span {
     }
     @media (max-width: 700px) {
         flex-direction: column;
+        display: flex;
+    justify-content: center;
+    align-items: center;
     }
 }
 

@@ -66,7 +66,7 @@ position: relative;
          content: '';
          position: absolute;
          width: 5%;
-         height: 3vh;
+         height: 20px;
          background-color: gray;
          border-bottom: 2px solid #DAA520;
          border-left: 2px solid gray;

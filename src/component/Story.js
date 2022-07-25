@@ -95,8 +95,12 @@ const Right = styled.div`
     color: #daa520;
     text-shadow: 2px 2px 2px black;
 
-    @media (max-width: 750px) {
+    @media (max-width: 900px) {
       font-size: 100px;
+      text-align: center;
+    }
+    @media (max-width: 340px) {
+      font-size: 70px;
       text-align: center;
     }
   }
